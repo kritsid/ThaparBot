@@ -13,14 +13,14 @@ ML model has been initially trained in train.ipynb file. In this, i have preproc
 
 ## PREPROCESSING ELABORATED:
 To preprocess the data, following has been done in the same sequence:
-### TOKENIZATION
-### CREATED A CORPUS IN THE FORM => (['list of words'], intent) EG: (['hi'],greet)
-### LEMMAIZATION
-### LOWERCASE
-### DUPLICATE REMOVAL
-### BAG OF WORDS
+#### TOKENIZATION
+#### CREATED A CORPUS IN THE FORM => (['list of words'], intent) EG: (['hi'],greet)
+#### LEMMAIZATION
+#### LOWERCASE
+#### DUPLICATE REMOVAL
+#### BAG OF WORDS
 
-#### neural networds model
+## neural networds model
 #### model = Sequential()
 #### model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
 #### model.add(Dropout(0.5))
