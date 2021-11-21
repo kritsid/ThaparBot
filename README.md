@@ -25,9 +25,9 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy
 For this bot system, i have manually created the dataset. Since it is manual, it is a very small dataset in form of questions and responses. 
 
 # METHODOLGY:
-<centre>
+<center>
 ![project3](https://user-images.githubusercontent.com/43928250/142760663-a1a46cef-69d0-4956-b27f-eb77b7ad3753.png)
-</centre>
+</center>
 
 # IO IMAGES:
 
