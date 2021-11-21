@@ -30,6 +30,8 @@ For this bot system, i have manually created the dataset. Since it is manual, it
 
 # IO IMAGES:
 
+![image](https://user-images.githubusercontent.com/43928250/142760737-b7776536-2ace-4bc0-80f3-9e112030c73f.png)
+
 ![image](https://user-images.githubusercontent.com/43928250/142760523-3e5d6d3b-154b-42c3-84d5-072257e6ef82.png)
 
 
