@@ -16,7 +16,7 @@ model.add(Dropout(0.5))
 model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
-# Compiling model. SGD with Nesterov accelerated gradient gives good results for this model
+Compiling model. SGD with Nesterov accelerated gradient gives good results for this model
 sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
@@ -25,8 +25,9 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy
 For this bot system, i have manually created the dataset. Since it is manual, it is a very small dataset in form of questions and responses. 
 
 # METHODOLGY:
-
+<centre>
 ![project3](https://user-images.githubusercontent.com/43928250/142760663-a1a46cef-69d0-4956-b27f-eb77b7ad3753.png)
+</centre>
 
 # IO IMAGES:
 
