@@ -1,0 +1,65 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Welcome! What can i help you with?", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you about Thapar college", "Answer your FAQ about Thapar campus"],
+         "context": [""]
+        },
+        {"tag": "about_hostels",
+         "patterns": ["How many hostels are there?", "Are boys hostels good in thapar? ", "Give me a list of thapar hostels", "Are thapar hostels clean ? "],
+         "responses": ["you can get all the required information here: https://www.thapar.edu/students/pages/hostels"],
+         "context": [""]
+        },
+        {"tag": "hostel_life",
+        "patterns": ["How is hostel life", "Is the food good in hostel ?", "Are thapar hostels clean ? "],
+        "responses": ["Hostel Life is good. Food is also good in hostels. Night mess is also there in each hostel. Hostel room rent is generally 30-40k depending on type of room. "],
+        "context": [""]
+        },
+        {"tag": "placement_record",
+        "patterns": ["How many Students get placed", "past placement record ? ", "give me sme placement info"],
+        "responses": ["You can find detailed record here: https://www.thapar.edu/placements "],
+        "context": [""]
+        },
+        {"tag": "About_thapar",
+         "patterns": ["what is thapar?", "Tell me something about Thapar", "thapar"],
+         "responses": ["The Thapar Institute of Engineering and Technology (TIET) is one of India's oldest and finest educational institutions, which provides a steady source of highly skilled talent to the nation as well as overseas.",
+                       "Founded in 1956 with a campus spread across sprawling 250 acres, Thapar Institute of Engineering & Technology, located in Patiala, has been a pioneer in engineering education, research and innovation. Our community involves ingenious minds solvers who are eager to make the world a better place to live in with their innovative techniques and discoveries."],
+         "context": [""]
+        },
+        {"tag": "Location_thapar",
+         "patterns": ["location of thapar", "where is it located ?", "How many branches of thapar ?"],
+         "responses": ["It is located at 2 locations in Punjab.. Main Campus is in Patiala. please follow the following link: https://www.google.com/maps/dir//thapar+location/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x391028ab86533db5:0x93cc1f72eae1c9a8?sa=X&ved=2ahUKEwjm7Z3A1qf0AhWoklYBHf1JCIEQ9Rd6BAhGEAU          "],
+         "context": [""]
+        },
+        {"tag": "BE_degree",
+         "patterns": ["what BE degrees does thapar has?", "BE degree thapar", "List of degree programs"],
+         "responses": ["Thapar University offers BTech in 8 different specializations which are Chemical Engineering, Civil Engineering, Computer Engineering, Electrical Engineering, Electronics & Communication Engineering, Electronics & Instrumentation Engineering, Electronics & Computer Engineering and Mechanical Engineering."],
+         "context": [""]
+        },
+        {"tag": "Apply",
+         "patterns": ["I want to apply.. what is the procedure?", "How to apply ?", "current status of admissions?", "Register me"],
+         "responses": ["you can apply by filling out the online form here: https://admission.thapar.edu/"
+                ],
+         "context": [""]
+        }
+   ]
+}
