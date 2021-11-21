@@ -20,16 +20,16 @@ To preprocess the data, following has been done in the same sequence:
 ### DUPLICATE REMOVAL
 ### BAG OF WORDS
 
-#neural networds model
-model = Sequential()
-model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(64, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(len(train_y[0]), activation='softmax'))
-Compiling model. SGD with Nesterov accelerated gradient gives good results for this model
-sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
-model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
+#### neural networds model
+#### model = Sequential()
+#### model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
+#### model.add(Dropout(0.5))
+#### model.add(Dense(64, activation='relu'))
+#### model.add(Dropout(0.5))
+#### model.add(Dense(len(train_y[0]), activation='softmax'))
+#### Compiling model. SGD with Nesterov accelerated gradient gives good results for this model
+#### sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
+#### model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 # ABOUT DATASET:
 
