@@ -9,6 +9,17 @@ In this project, I have tried to make a chat assisstant for our college. This sy
 # WORKING
 
 ML model has been initially trained in train.ipynb file. In this, i have preprocessed the data(textual data in form of intents). Once it is preprocessed, i have divided it into training and testing sets. After that I have made a Neural Netwrok Model to train the training data.The trained model has been saved and used furthur. Then I have used Pickle to get the response for new intents.
+
+
+## PREPROCESSING ELABORATED:
+To preprocess the data, following has been done in the same sequence:
+### TOKENIZATION
+### CREATED A CORPUS IN THE FORM => (['list of words'], intent) EG: (['hi'],greet)
+### LEMMAIZATION
+### LOWERCASE
+### DUPLICATE REMOVAL
+### BAG OF WORDS
+
 #neural networds model
 model = Sequential()
 model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
