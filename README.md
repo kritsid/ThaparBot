@@ -39,6 +39,10 @@ For this bot system, i have manually created the dataset. Since it is manual, it
 
 ![flow2 (1)](https://user-images.githubusercontent.com/43928250/143384784-ec3671c1-bffe-491a-b9be-63cddd66e252.png)
 
+
+**********************************************************************************************************************
+
+
 ![project3](https://user-images.githubusercontent.com/43928250/142760663-a1a46cef-69d0-4956-b27f-eb77b7ad3753.png)
 
 # IO IMAGES:
